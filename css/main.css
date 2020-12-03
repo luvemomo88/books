@@ -164,16 +164,23 @@ h4 {
 }
 
 .card {
-  color: #fff;
+  color: #111;
   width: 560px;
   height: 320px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .card:nth-child(1) {
   background: url("../images/bookstore1.png") no-repeat;
+}
+
+.container_card {
+  position: absolute;
+  top: 30px;
+  left: -100px;
 }
 
 .card .card_text {
