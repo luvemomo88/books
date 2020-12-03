@@ -14,7 +14,6 @@ body {
 }
 
 .container {
-  /* background: #ddd; */
   width: 1160px;
   margin: 0 auto;
 }
@@ -28,6 +27,7 @@ body {
 }
 
 h2 {
+  align-items: center;
   font-size: 60px;
   font-weight: 800;
   line-height: 1.2;
@@ -128,16 +128,18 @@ h4 {
 
 .slide {
   height: 600px;
-  background: url("../images/slide.jpg") center;
+  background: url("../images/slide.jpg") no-repeat center;
   background-size: cover;
   padding: initial;
 }
 
 .slide_text {
   padding-top: 150px;
+  color: #fff;
 }
 
 .slide_text h2 {
+  align-items: center;
   margin-bottom: 86px;
 }
 
