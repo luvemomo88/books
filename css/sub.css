@@ -42,10 +42,9 @@ h4 {
 
 .btn {
   display: inline-block;
-  background: #111;
-  color: #fff;
+  background: #fff;
+  color: #111;
   padding: 14px 40px;
-  border: 1px solid #111;
   border-radius: 80px;
 }
 
@@ -56,12 +55,6 @@ h4 {
   font-size: 14px;
   border: 1px solid #111;
   border-radius: 80px;
-}
-
-.btn_white {
-  background: #fff;
-  color: #111;
-  border: 1px solid #fff;
 }
 
 /* header */
@@ -188,8 +181,9 @@ h4 {
 }
 
 .section .text p.txt_01 {
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 .section .text p:last-child {
@@ -205,8 +199,8 @@ h4 {
 .sec_05 .photo,
 .sec_06 .photo,
 .sec_07 .photo {
-  width: 470px;
-  height: 300px;
+  width: 560px;
+  height: 320px;
 }
 
 /* section_03 */
